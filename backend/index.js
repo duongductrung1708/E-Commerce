@@ -12,7 +12,7 @@ app.use(cors());
 
 // Database Connection With MongoDB
 mongoose.connect(
-  "mongodb+srv://koone:trung1708@cluster0.sgjz1l2.mongodb.net/e-commerce",
+  "mongodb://localhost:27017",
 );
 const db = mongoose.connection;
 
